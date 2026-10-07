@@ -1,0 +1,82 @@
+GUIA: PUBLICAR NO GITHUB E COMPARTILHAR COM O GRUPO
+
+1. PREPARAR OS ARQUIVOS
+Extraia Site_Pronto_GitHub.zip. Abra index.html para testar localmente.
+O site usa HTML, CSS e JavaScript simples, sem instalação ou compilação.
+As imagens, o áudio, o vídeo e o mapa precisam de internet.
+O formulário apenas simula o envio, sem enviar ou armazenar informações.
+
+2. CRIAR O REPOSITÓRIO
+Entre em https://github.com e acesse o botão + > New repository.
+Use um nome como turismo-consciente. Escolha Public para usar GitHub Pages
+com uma conta gratuita. Clique em Create repository.
+
+3. ENVIAR O SITE
+No repositório vazio, clique em uploading an existing file. Se já houver
+arquivos, use Add file > Upload files.
+Arraste TODO O CONTEÚDO extraído do ZIP, incluindo as pastas css, js e docs.
+Não envie apenas o ZIP: o GitHub Pages precisa dos arquivos extraídos.
+Não arraste a pasta externa inteira: index.html deve aparecer diretamente
+na raiz do repositório, ao lado das pastas css e js.
+Inclua .nojekyll se o seu explorador permitir selecionar esse arquivo.
+Escreva uma mensagem como 'Adicionar site Turismo Consciente' e confirme
+em Commit changes. Se aparecer Propose changes, conclua a proposta e
+integre a alteração à branch principal.
+
+4. PUBLICAR O SITE NO GITHUB PAGES
+Abra Settings > Pages no repositório.
+Em Build and deployment, selecione Deploy from a branch.
+Escolha a branch main (ou a branch que contém seus arquivos).
+Escolha /(root), não /docs: neste pacote o index.html fica na raiz.
+Clique em Save e aguarde a conclusão da publicação.
+O endereço ficará normalmente assim:
+https://SEU-USUARIO.github.io/turismo-consciente/
+Substitua SEU-USUARIO pelo seu usuário e turismo-consciente pelo nome
+exato escolhido para o repositório. O endereço real aparece em Pages.
+Se houver erro, veja a aba Actions e confira se index.html está na raiz.
+
+5. COMPARTILHAR COM O GRUPO
+Para visualizar o site: compartilhe o link exibido em Settings > Pages.
+Para consultar o código: compartilhe o link do repositório, no formato
+https://github.com/SEU-USUARIO/turismo-consciente
+Para permitir edição: abra Settings > Collaborators > Add people.
+Pesquise o usuário de cada colega e envie o convite. Cada colega precisa
+aceitar o convite para ter acesso de colaboração.
+Para evitar alterações simultâneas, combinem quais páginas cada pessoa
+vai editar e revisem as mudanças antes de confirmar.
+
+6. ATUALIZAR DEPOIS
+Edite o arquivo no GitHub pelo ícone de lápis ou envie uma nova versão pelo
+Upload files mantendo o mesmo caminho e nome. Confirme a alteração.
+Mudanças na branch publicada geram uma nova publicação do site.
+
+7. EXPLICAR O CÓDIGO NA APRESENTAÇÃO
+HTML: cria os títulos, textos, menu, cards, tabelas e campos do formulário.
+CSS: define cores, espaçamento, colunas e adaptação à tela do celular.
+As cores principais ficam em :root, no começo de css/style.css.
+JavaScript: valida nome, telefone, data e mensagem; o navegador valida
+campos obrigatórios, e-mail e quantidade de pessoas. O envio é simulado.
+Cada página repete o mesmo cabeçalho e rodapé para facilitar a leitura.
+Perguntas frequentes usam details e summary, recursos nativos do HTML.
+Não há frameworks, banco de dados ou servidor de aplicação.
+
+8. O QUE FOI CONFERIDO
+10 páginas com estrutura de tags balanceada e identificação da página atual.
+132 referências locais verificadas, incluindo links, CSS, JS e âncoras.
+7 casos automatizados para a lógica do JavaScript.
+10 páginas em larguras de 1280 px e 375 px no navegador Microsoft Edge:
+nenhuma rolagem horizontal da página nessas larguras.
+Envio simulado válido, e-mail inválido e quantidade fracionada no navegador.
+Arquivos TXT de código idênticos aos arquivos do site, em UTF-8 e CRLF.
+A disponibilidade dos recursos externos e a publicação no GitHub não foram
+testadas. O site ainda não está publicado. A validação W3C e a avaliação
+completa de acessibilidade ficam como verificações adicionais.
+Preencha os nomes da equipe no escopo antes da entrega acadêmica.
+
+FONTES OFICIAIS CONSULTADAS EM 07/10/2026
+Envio de arquivos:
+https://docs.github.com/en/repositories/working-with-files/managing-files/adding-a-file-to-a-repository
+Publicação:
+https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
+Colaboradores:
+https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/repository-access-and-collaboration/inviting-collaborators-to-a-personal-repository
