@@ -1,0 +1,2 @@
+# Diário de desenvolvimento
+Escolha do tema; criação das 10 páginas; menu de navegação; HTML5 semântico; CSS; formulário; multimídia; acessibilidade. Dificuldades: organizar as páginas e manter o padrão visual. Aprendizado: HTML, CSS, formulários, links e acessibilidade.
