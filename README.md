@@ -1,5 +1,13 @@
 # 🌎 Turismo Consciente
 
+> Cópia acadêmica mantida por Carlos Gomes de Souza Junior. Projeto desenvolvido em equipe; o [repositório coletivo](https://github.com/WillyDourado/U-UNICID-ADS-CC-ENG-FRONTEND-2260030-N8-2-2026-NT-TURISMO) reúne o trabalho do grupo.
+
+## Execução rápida nesta cópia
+
+Baixe e extraia o repositório. Abra `Projeto_Turismo_Consciente_Corrigido/index.html` no navegador, preservando as subpastas `css/`, `js/` e `docs/`. Recursos externos precisam de internet. O formulário simula o envio.
+
+As orientações acadêmicas de publicação abaixo descrevem um roteiro; não comprovam que um deploy no Railway foi concluído.
+
 **Projeto Acadêmico — Análise e Desenvolvimento de Sistemas (ADS)**
 
 **Instituição:** Universidade Cidade de São Paulo (UNICID)  
@@ -79,14 +87,14 @@ O site é composto por 10 páginas HTML, interligadas por um menu de navegação
 
 ### Organização dos Arquivos
 
-O código do site está organizado na pasta `site/` do repositório.
+O código do site está organizado na pasta `Projeto_Turismo_Consciente_Corrigido/` do repositório.
 
 ```text
 U-UNICID-ADS-CC-ENG-FRONTEND-2260030-N8-2-2026-NT-TURISMO/
 │
 ├── README.md
 │
-└── site/
+└── Projeto_Turismo_Consciente_Corrigido/
     ├── index.html
     ├── sobre.html
     ├── projetos.html
@@ -186,7 +194,7 @@ Alguns recursos multimídia dependem de conexão com a internet.
 2. Clique em `Code`.
 3. Selecione `Download ZIP`.
 4. Extraia o arquivo ZIP em uma pasta do computador.
-5. Abra a pasta `site/`.
+5. Abra a pasta `Projeto_Turismo_Consciente_Corrigido/`.
 6. Localize o arquivo `index.html`.
 7. Abra o arquivo em um navegador.
 8. Utilize o menu principal para navegar entre as páginas.
@@ -203,7 +211,7 @@ https://github.com/WillyDourado/U-UNICID-ADS-CC-ENG-FRONTEND-2260030-N8-2-2026-N
 
 **Responsável pelo repositório:** WillyDourado  
 **Branch principal:** `main`  
-**Diretório do site:** `site/`
+**Diretório do site:** `Projeto_Turismo_Consciente_Corrigido/`
 
 ### Controle de Versões e Colaboração
 
@@ -243,14 +251,14 @@ Faça login utilizando a conta do GitHub.
 
 ### Passo 3 — Configurar o Diretório
 
-Como os arquivos do site estão organizados na pasta `site/`, configure o diretório principal do serviço.
+Como os arquivos do site estão organizados na pasta `Projeto_Turismo_Consciente_Corrigido/`, configure o diretório principal do serviço.
 
 No Railway:
 
 1. Abra o serviço do projeto.
 2. Acesse `Settings`.
 3. Localize a configuração `Root Directory`.
-4. Defina o caminho `/site`.
+4. Defina o caminho `/Projeto_Turismo_Consciente_Corrigido`.
 5. Salve a configuração.
 
 O arquivo `index.html` deve estar diretamente dentro do diretório configurado.
@@ -301,7 +309,7 @@ Para isso:
 6. Escolha a pasta `/(root)` ou `/docs`, conforme a organização dos arquivos.
 7. Clique em `Save`.
 
-**Observação:** o GitHub Pages não permite selecionar diretamente a pasta `/site` nesse modo. Para utilizar essa opção, seria necessário reorganizar os arquivos ou configurar um fluxo de publicação com GitHub Actions.
+**Observação:** o GitHub Pages não permite selecionar diretamente a pasta `/Projeto_Turismo_Consciente_Corrigido` nesse modo. Para utilizar essa opção, seria necessário reorganizar os arquivos ou configurar um fluxo de publicação com GitHub Actions.
 
 O Railway permanece como a plataforma de referência para a atividade.
 
